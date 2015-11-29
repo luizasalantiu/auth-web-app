@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userRoleConfig>
+	<roles>
+		<role>
+			<name>PAG_1</name>
+			<access>
+				<page>/page1.jsp</page>
+			</access>
+		</role>
+		<role>
+			<name>PAG_2</name>
+			<access>
+				<page>/page2.jsp</page>
+				<page>/page3.jsp</page>
+			</access>
+		</role>
+	</roles>
+</userRoleConfig>
