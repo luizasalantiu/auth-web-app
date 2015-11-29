@@ -13,14 +13,15 @@ Implements basic authentication over SSL, with password hashing done with [bcryp
 
 ##### Useful links:
 
-- [Setting up SSL in Tomcat](http://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html#Configuration). Since I only needed to run this locally, ended up following [these instructions](https://dzone.com/articles/setting-ssl-tomcat-5-minutes) (no CSR involved).
+- [Setting up SSL in Tomcat](http://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html#Configuration). Since this only needed to run locally,
+[these instructions](https://dzone.com/articles/setting-ssl-tomcat-5-minutes) were followed (no CSR involved).
 
 - [Overview of Java servlets and application life cycle](http://stackoverflow.com/a/3106909/2575683)
 
 ##### Todo
 
 - Anti-CSRF protection
-- Use better servlet url mapping, after finding this: [Understanding url pattern in servlet mapping](http://stackoverflow.com/a/4140659/2575683)
+- Use better servlet url mapping based on this [understanding url pattern in servlet mapping](http://stackoverflow.com/a/4140659/2575683)
 
 <br />
 Java 1.8.0; JUnit 4, Mockito 1.9.5; Eclipse Mars.1; Tomcat 7.0
