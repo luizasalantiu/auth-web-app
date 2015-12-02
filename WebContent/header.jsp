@@ -1,4 +1,3 @@
-
 <%
 	if (session.getAttribute("username") != null) {
 %>

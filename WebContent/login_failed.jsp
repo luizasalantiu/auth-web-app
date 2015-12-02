@@ -7,7 +7,6 @@
 <title>Login failed</title>
 </head>
 <body>
-
 ${message}
 </body>
 </html>
